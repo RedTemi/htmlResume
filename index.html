@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="position: relative;  margin-right: -17px; margin-bottom: -17px;">
+        <div class="">
+            <div>
+                <style type="text/css" id="static">
+                    html,
+                    body,
+                    div,
+                    span,
+                    applet,
+                    object,
+                    iframe,
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6,
+                    p,
+                    blockquote,
+                    pre,
+                    a,
+                    abbr,
+                    acronym,
+                    address,
+                    big,
+                    cite,
+                    code,
+                    del,
+                    dfn,
+                    em,
+                    font,
+                    img,
+                    ins,
+                    kbd,
+                    q,
+                    s,
+                    samp,
+                    small,
+                    strike,
+                    strong,
+                    sub,
+                    sup,
+                    tt,
+                    var,
+                    b,
+                    u,
+                    i,
+                    center,
+                    dl,
+                    dt,
+                    dd,
+                    ol,
+                    ul,
+                    li,
+                    fieldset,
+                    form,
+                    label,
+                    legend,
+                    table,
+                    caption,
+                    tbody,
+                    tfoot,
+                    thead,
+                    tr,
+                    th,
+                    td {
+                        margin: 0;
+                        padding: 0;
+                        border: 0;
+                        outline: 0;
+                        vertical-align: baseline;
+                        background: transparent
+                    }
+
+                    body {
+                        background: #FFF;
+                        line-height: 1;
+                        text-align: left;
+                        font-feature-settings: "liga"0;
+                        -moz-font-feature-settings: "liga"off
+                    }
+
+                    #document.skn-mlc1 table {
+                        border-collapse: collapse;
+                        border-spacing: 0;
+                        font-size: inherit;
+                        color: inherit;
+                        width: 100%
+                    }
+
+                    /* START content disc style for LI */
+                    #document.skn-mlc1 ul,
+                    #document.skn-mlc1 li {
+                        list-style: none;
+                        margin: 0;
+                        padding: 0
+                    }
+
+                    #document.skn-mlc1 ul li {
+                        position: relative;
+                        margin: 0px;
+                        padding-left: 15px
+                    }
+
+                    #document.skn-mlc1 ul li:before {
+                        content: '\2022';
+                        font-size: 9px;
+                        position: absolute;
+                        left: 0;
+                        top: 0
+                    }
+
+                    /* END content disc style for LI */
+
+                    /* ALNK */
+                    #document.skn-mlc1 .adnlLnks .singlecolumn li {
+                        padding-left: 0
+                    }
+
+                    #document.skn-mlc1 .adnlLnks .singlecolumn li:last-child {
+                        margin-bottom: 0
+                    }
+
+                    #document.skn-mlc1 .adnlLnks .singlecolumn li:before {
+                        content: ""
+                    }
+
+                    #document.skn-mlc1 .paddedline {
+                        display: block
+                    }
+
+                    #document.skn-mlc1 .septr:before {
+                        content: "\2022";
+                        font-size: 9px;
+                        vertical-align: top;
+                        padding-left: 2px;
+                        padding-right: 2px
+                    }
+
+                    #document.skn-mlc1 .jobline ul {
+                        margin-top: 6px
+                    }
+
+                    #document.skn-mlc1 .degreeGap {
+                        margin-top: 5px
+                    }
+
+                    #document.skn-mlc1 .txtBold {
+                        font-weight: bold
+                    }
+
+                    #document.skn-mlc1 .txtItl {
+                        font-style: italic
+                    }
+
+                    #document.skn-mlc1 .sprtr {
+                        margin: 0 3px
+                    }
+
+                    #document.skn-mlc1 .displayNoneThisField {
+                        display: none
+                    }
+
+                    #document.skn-mlc1 .fltRight {
+                        float: right
+                    }
+
+                    /*Document*/
+                    #document.skn-mlc1 {
+                        color: #343b30;
+                        line-height: 16px;
+                        font-variant-ligatures: none;
+                        word-wrap: break-word
+                    }
+
+                    #document.skn-mlc1 .sectiontitle,
+                    #document.skn-mlc1 .address .wrapAdrs {
+                        display: table;
+                        table-layout: fixed;
+                        width: 100%
+                    }
+
+                    #document.skn-mlc1.hmargins {
+                        padding-left: 30px;
+                        padding-right: 30px
+                    }
+
+                    #document.skn-mlc1 .name {
+                        font-weight: bold;
+                        padding: 0 0 28px 0;
+                        text-align: left;
+                        letter-spacing: .5px;
+                        text-transform: uppercase;
+                        position: relative
+                    }
+
+                    #document.skn-mlc1 .name:after {
+                        content: " ";
+                        border-bottom: 1px solid #595959;
+                        margin-bottom: 15px;
+                        height: 1px;
+                        width: 32px;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        font-size: initial
+                    }
+
+                    #document.skn-mlc1 .profTitle {
+                        font-weight: normal;
+                        letter-spacing: 1px
+                    }
+
+                    /* Circle SVG */
+                    #document.skn-mlc1 .address {
+                        text-align: left
+                    }
+
+                    #document.skn-mlc1 .adrs-field {
+                        display: block;
+                        position: relative;
+                        margin-bottom: 10px;
+                        min-height: 15px
+                    }
+
+                    #document.skn-mlc1 .adrs-field .circle {
+                        background: #fff;
+                        border-radius: 100%;
+                        color: #E5B0AD;
+                        height: 15px;
+                        width: 15px;
+                        position: absolute;
+                        top: -1px;
+                        text-align: center;
+                        font-size: 9px;
+                        box-sizing: border-box
+                    }
+
+                    #document.skn-mlc1 .adrs-field .rd-circle {
+                        stroke: #E5B0AD
+                    }
+
+                    #document.skn-mlc1 .adrs-field .rd-circle+circle {
+                        stroke: transparent;
+                        fill: #E5B0AD
+                    }
+
+                    #document.skn-mlc1 .address .txtBold+.field {
+                        padding-left: 20px;
+                        vertical-align: top
+                    }
+
+                    #document.skn-mlc1 .address .adrs-field>.addrCircle,
+                    #document.skn-mlc1 .adnlLnks .adrs-field>.addrCircle {
+                        display: table-cell;
+                        padding-left: 20px;
+                        max-width: 166px;
+                        box-sizing: border-box;
+                    }
+
+                    #document.skn-mlc1 .userdetail .field {
+                        padding-left: 0 !important
+                    }
+
+                    /* Heading */
+                    #document.skn-mlc1 .heading {
+                        font-weight: bold;
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        position: relative
+                    }
+
+                    #document.skn-mlc1 .sectiontitle {
+                        letter-spacing: 1px
+                    }
+
+                    #document.skn-mlc1 table.skills,
+                    #document.skn-mlc1 .table_wrapper {
+                        width: 100%;
+                        margin-top: 0
+                    }
+
+                    #document.skn-mlc1 table.skills th,
+                    #document.skn-mlc1 table.skills td {
+                        width: 20%;
+                        text-align: center
+                    }
+
+                    #document.skn-mlc1 table.skills th {
+                        text-decoration: underline
+                    }
+
+                    #document.skn-mlc1 table.skills .skillname,
+                    #document.skn-mlc1 table.skills .skillrating {
+                        text-align: left;
+                        width: 35%
+                    }
+
+                    #document.skn-mlc1 table.skills .skillrating {
+                        width: 20%
+                    }
+
+                    #document.skn-mlc1 table.skills .skillyears,
+                    #document.skn-mlc1 table.skills .skilllast {
+                        width: 19%
+                    }
+
+                    #document.skn-mlc1 table.skills .pad1 {
+                        width: 5%
+                    }
+
+                    #document.skn-mlc1 table.skills .pad2,
+                    #document.skn-mlc1 table.skills .pad3 {
+                        width: 1%
+                    }
+
+                    /* Common style for left and right box */
+                    #document.skn-mlc1 .left-box {
+                        padding: 30px;
+                        display: table-cell;
+                        position: relative;
+                        overflow: hidden
+                    }
+
+                    #document.skn-mlc1 .right-box {
+                        padding: 30px;
+                        display: table-cell;
+                        vertical-align: middle;
+                        position: relative;
+                        width: 100%
+                    }
+
+                    #document.skn-mlc1 .left-box>.section:first-child {
+                        padding-top: 0 !important
+                    }
+
+                    #document.skn-mlc1 .right-box>.section:first-child {
+                        padding-top: 0 !important
+                    }
+
+                    #document.skn-mlc1 .right-box>.section:first-child .heading,
+                    #document.skn-mlc1 .left-box>.section:first-child .heading {
+                        margin-bottom: 10px !important
+                    }
+
+                    /* Handling background color of left/right box */
+                    #document.skn-mlc1 .topsection .left-box:before {
+                        border-left: 1px solid transparent;
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        opacity: .5;
+                        z-index: -1
+                    }
+
+                    #document.skn-mlc1 .topsection .right-box:before {
+                        content: '';
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        opacity: .1
+                    }
+
+                    #document.skn-mlc1 .parentContainer .left-box:before {
+                        content: '';
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        opacity: .2
+                    }
+
+                    /* Warning- Do not change below line keep it as it is because there is replace code in ExportProcess file for this line */
+                    #document.skn-mlc1 .parentContainer .left-box:before {
+                        position: absolute;
+                        width: 100%
+                    }
+
+                    #document.skn-mlc1 .parentContainer .right-box {
+                        background-color: #fff;
+                        vertical-align: top
+                    }
+
+                    /* Specifically for finalize page:START */
+                    #document.skn-mlc1 .topsection .left-box:before,
+                    #document.skn-mlc1 .parentContainer .left-box:before,
+                    #document.skn-mlc1 .topsection .right-box:before {
+                        background-color: #E5B0AD
+                    }
+
+                    #document.skn-mlc1 .parentContainer .left-box.dropable-container .SortableItem-sibling[data-react-beautiful-dnd-draggable="0"] {
+                        background-color: #E5B0AD
+                    }
+
+                    /* Specifically for finalize page:END */
+
+                    *Infographic*/ #document.skn-mlc1 .langSec,
+                    #document.skn-mlc1 .infoSec {
+                        box-sizing: border-box;
+                        position: relative
+                    }
+
+                    #document.skn-mlc1 .langSec .field *,
+                    #document.skn-mlc1 .langSec .firstparagraph .field,
+                    #document.skn-mlc1 .infoSec .field * {
+                        display: inline
+                    }
+
+                    #document.skn-mlc1 .langSec .firstparagraph {
+                        margin-top: 0;
+                        padding-top: 0
+                    }
+
+                    #document.skn-mlc1 .langSec .field {
+                        word-wrap: break-word
+                    }
+
+                    #document.skn-mlc1 .ratingBar {
+                        background: #d5d6d6;
+                        width: 100%;
+                        clear: both;
+                        margin-top: 3px;
+                        position: relative;
+                        page-break-inside: avoid
+                    }
+
+                    #document.skn-mlc1 .innerRating {
+                        background-color: #E5B0AD;
+                        height: 4px;
+                        position: relative;
+                        width: 60%
+                    }
+
+                    #document.skn-mlc1 .langSec .paragraph,
+                    #document.skn-mlc1 .infoSec .paragraph {
+                        margin-top: 0;
+                        padding-bottom: 5px;
+                        display: inline-block;
+                        vertical-align: top
+                    }
+
+                    #document.skn-mlc1 .langSec>.paragraph:nth-last-child(1),
+                    #document.skn-mlc1 .langSec>.paragraph:nth-last-child(2),
+                    #document.skn-mlc1 .infoSec>.paragraph:nth-last-child(1),
+                    #document.skn-mlc1 .infoSec>.paragraph:nth-last-child(2) {
+                        padding-bottom: 0
+                    }
+
+                    #document.skn-mlc1 .langSec .singlecolumn,
+                    #document.skn-mlc1 .infoSec .singlecolumn {
+                        margin-left: 0 !important;
+                        padding-left: 0;
+                        position: relative;
+                    }
+
+                    #document.skn-mlc1 .right-box .langSec,
+                    #document.skn-mlc1 .right-box .infoSec {
+                        font-size: 50px
+                    }
+
+                    /*Infographic left box*/
+                    #document.skn-mlc1 .left-box .ratingBar:before {
+                        content: '';
+                        position: absolute;
+                        height: 4px;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        background: #fff
+                    }
+
+                    #document.skn-mlc1 .left-box .langSec .paragraph,
+                    #document.skn-mlc1 .left-box .infoSec .paragraph {
+                        display: block;
+                        margin-right: 0 !important
+                    }
+                </style>
+                <style type="text/css" id="dynamic"
+                    data-time="Fri Oct 02 2020 12:58:12 GMT+0100 (West Africa Standard Time)">
+                    #document.skn-mlc1,
+                    #document.skn-mlc1 table {
+                        line-height: 17px
+                    }
+
+                    #document.skn-mlc1.pagesize {
+                        width: 588px
+                    }
+
+                    #document.skn-mlc1.fontsize,
+                    #document.skn-mlc1 .langSec .paragraph,
+                    #document.skn-mlc1 .infoSec .paragraph {
+                        font-size: 12px
+                    }
+
+                    #document.skn-mlc1.fontface,
+                    #document.skn-mlc1 .langSec .paragraph,
+                    #document.skn-mlc1 .infoSec .paragraph {
+                        font-family: Trebuchet MS
+                    }
+
+                    #document.skn-mlc1.hmargins {
+                        padding-left: 12px;
+                        padding-right: 12px
+                    }
+
+                    #document.skn-mlc1 .section {
+                        padding-top: 30px
+                    }
+
+                    #document.skn-mlc1 .topsection .section {
+                        padding-top: 0
+                    }
+
+                    #document.skn-mlc1 .firstparagraph {
+                        margin-top: 0 !important
+                    }
+
+                    #document.skn-mlc1 .paragraph {
+                        margin-top: 11px
+                    }
+
+                    #document.skn-mlc1 .right-box .singlecolumn,
+                    #document.skn-mlc1 .right-box .maincolumn {
+                        margin-left: 0px
+                    }
+
+                    #document.skn-mlc1 .adnlLnks .singlecolumn {
+                        margin-left: 0
+                    }
+
+                    #document.skn-mlc1 table.skills td {
+                        padding-top: 8px
+                    }
+
+                    #document.skn-mlc1 .name {
+                        font-size: 30px;
+                        line-height: 30px
+                    }
+
+                    #document.skn-mlc1 .profTitle {
+                        font-size: 16px;
+                        line-height: 26px;
+                        margin-top: 10px
+                    }
+
+                    #document.skn-mlc1 .topsection .left-box:before,
+                    #document.skn-mlc1 .parentContainer .left-box:before,
+                    #document.skn-mlc1 .topsection .right-box:before {
+                        background-color: #1a409a
+                    }
+
+                    #document.skn-mlc1 .adrs-field .circle {
+                        color: #1a409a;
+                        font-size: 11px;
+                        height: 16px;
+                        width: 16px;
+                        line-height: 16px;
+                        top: 0px
+                    }
+
+                    #document.skn-mlc1 .userdetail .adrs-field .circle,
+                    #document.skn-mlc1 .adnlLnks .adrs-field .circle {
+                        line-height: 19px;
+                        font-size: 13px
+                    }
+
+                    #document.skn-mlc1 .adrs-field svg {
+                        height: 16px;
+                        width: 12px
+                    }
+
+                    #document.skn-mlc1 .address .txtBold+.field,
+                    #document.skn-mlc1 .address .adrs-field>.addrCircle,
+                    #document.skn-mlc1 .adnlLnks .adrs-field>.addrCircle {
+                        padding-left: 24px
+                    }
+
+                    #document.skn-mlc1 .address,
+                    #document.skn-mlc1 .adnlLnks {
+                        font-size: 12px
+                    }
+
+                    #document.skn-mlc1 .address2 {
+                        font-size: 12px
+                    }
+
+                    #document.skn-mlc1 .heading {
+                        font-size: 13px;
+                        line-height: 18px;
+                        margin-bottom: 15px
+                    }
+
+                    #document.skn-mlc1 .left-box,
+                    #document.skn-mlc1 .left-box .firstparagraph {
+                        width: 166px
+                    }
+
+                    #document.skn-mlc1 .topsection,
+                    #document.skn-mlc1 .parentContainer {
+                        margin-left: -12px !important;
+                        margin-right: -12px !important
+                    }
+
+                    /*Infographic*/
+                    #document.skn-mlc1 .langSec .paragraph+.paragraph {
+                        max-width: 155px
+                    }
+
+                    #document.skn-mlc1 .langSec .emptyWidthDiv {
+                        width: 321px
+                    }
+
+                    /* Do not remove,using for rating bar */
+                    #document.skn-mlc1 .langSec .emptyBarDiv+.emptyWidthDiv {
+                        width: 155px
+                    }
+
+                    /* Do not remove,using for rating bar */
+                    #document.skn-mlc1 .innerRating {
+                        background-color: #1a409a
+                    }
+
+                    #document.skn-mlc1 .right-box .langSec,
+                    #document.skn-mlc1 .right-box .infoSec {
+                        padding-left: 0px
+                    }
+
+                    #document.skn-mlc1 .right-box .langSec .heading,
+                    #document.skn-mlc1 .right-box .infoSec .heading {
+                        margin-left: -0px
+                    }
+
+                    #document.skn-mlc1 .right-box .infoSec .paragraph {
+                        width: 155px
+                    }
+
+                    /*Builder Infographic*/
+                    #document.skn-mlc1 .langSec .sortable-item .para_odd,
+                    #document.skn-mlc1 .langSec .sortable-item .para_even,
+                    #document.skn-mlc1 .right-box .langSec .sortable-item .firstparagraph:not(.para_odd):not(.para_even) {
+                        padding-bottom: 5px
+                    }
+
+                    #document.skn-mlc1 .right-box .langSec .sortable-item:nth-last-child(1) .paragraph,
+                    #document.skn-mlc1 .right-box .langSec .sortable-item:nth-last-child(2) .paragraph {
+                        padding-bottom: 0
+                    }
+
+                    #document.skn-mlc1 .right-box .langSec .sortable-item .para_odd,
+                    #document.skn-mlc1 .right-box .langSec .sortable-item .para_even {
+                        max-width: 155px
+                    }
+
+                    #document.skn-mlc1 .left-box .langSec .sortable-item .paragraph {
+                        padding-bottom: 6px
+                    }
+
+                    #document.skn-mlc1 .left-box .langSec .sortable-item {
+                        display: block !important
+                    }
+
+                    #document.skn-mlc1 .left-box .langSec .sortable-item .paragraph {
+                        margin-right: 0 !important
+                    }
+
+                    #document.skn-mlc1 .left-box .data-LNGG.active .ratingBar:before {
+                        background-color: #d5d6d6
+                    }
+
+                    /* specifically for finalize page */
+                    #document.skn-mlc1 .parentContainer .left-box.dropable-container .SortableItem-sibling[data-react-beautiful-dnd-draggable="0"] {
+                        background-color: #1a409a
+                    }
+                </style>
+            </div>
+            <div id="document" class="document fontsize fontface vmargins hmargins pagesize skn-mlc1 MLC1  MPR">
+                <div id="CONTAINER_PARENT_0" class="topsection">
+                    <div id="CONTAINER_0" class="left-box">
+                        <div data-react-beautiful-dnd-draggable="4"
+                            class="sortable-item section-container SortableItem-sibling name-contact">
+                            <div class="document-tool sec-tool" id="editIcons" style="right: -14px;"></div>
+                            <div id="SECTION_NAME535edd5a-a441-4b01-9f12-6d0738498235"
+                                class="section notdraggable SECTION_NAME firstsection  " data-section-cd="NAME">
+                                <div class=" doc-item">
+                                    <div class="">
+                                        <div class="">
+                                            <div id="PARAGRAPH_NAME_805551df-3a65-5f1f-4f66-cbb0526b3d71"
+                                                class="paragraph PARAGRAPH_NAME firstparagraph  ">
+                                                <div>
+                                                    <div class="name">
+                                                        <div class="field" id="FIELD_FNAM" dependency="FNAM">Idowu</div>
+                                                        <div class="field" id="FIELD_LNAM" dependency="LNAM">Temilayo
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="SECTION_CNTC3e68bbcd-6986-4f97-9e29-bca5d0a27a22"
+                                class="section SECTION_CNTC notdraggable   " data-section-cd="CNTC">
+                                <div class=" doc-item">
+                                    <div class="">
+                                        <div class="">
+                                            <div id="PARAGRAPH_CNTC_ed9a6b34-ea57-a2d5-7f10-2c05b9ff6f0a"
+                                                class="paragraph PARAGRAPH_CNTC firstparagraph  ">
+                                                <div class="clearfix doc-item">
+                                                    <div class="address">
+                                                        <div class="adrs-field" dependency="EMAI">
+                                                            <span class="txtBold circle">@</span>
+                                                            <span class="addrCircle">
+                                                                <span class="wrapAdrs">
+                                                                    <span class="field"
+                                                                        id="FIELD_EMAI">tmly16@gmail.com</span>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="adrs-field" dependency="HPHN">
+                                                            <span class="txtBold circle">h</span><span class="field"
+                                                                id="FIELD_HPHN">+2347081080550</span>
+                                                        </div>
+
+                                                        <div class="adrs-field" dependency="ADDR|STRT|CITY|STAT|ZIPC">
+                                                            <span class="txtBold circle">a</span>
+                                                            <span class="addrCircle">
+                                                                <span class="wrapAdrs">
+                                                                    <span class="field" id="FIELD_STRT"></span>
+                                                                    <span class="field"
+                                                                        id="FIELD_CITY">Lagos</span><span
+                                                                        dependency="CITY+STAT">, </span>
+                                                                    <span class="field" id="FIELD_STAT">Nigeria</span>
+                                                                    <span class="field" id="FIELD_ZIPC"></span>
+                                                                    <span class="field" id="FIELD_ADDR"></span>
+                                                                </span>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="doc-overlay section-overlay" style="left:-14px; right: -14px;">
+                                <span>&nbsp;</span></div>
+                        </div>
+                    </div>
+                    <div id="CONTAINER_1" class="right-box">
+                        <div data-react-beautiful-dnd-draggable="4"
+                            class="sortable-item section-container SortableItem-sibling  data-SUMM">
+                            <div class="document-tool sec-tool" id="editIcons" style="right: -14px;"></div>
+                            <div id="SECTION_SUMMaafcd174-2d38-44e9-b909-82b29c1a7f32"
+                                class="section notdraggable SECTION_SUMM   " data-section-cd="SUMM">
+                                <div class=" doc-item">
+                                    <div class="heading">
+                                        <div class="sectiontitle" id="SECTIONNAME_SUMM">Professional Summary<span
+                                                class="rename-section text-rename"> </span></div>
+                                    </div>
+                                    <div class="">
+                                        <div class="">
+                                            <div id="PARAGRAPH_SUMM_417646bc-f25e-6e5c-fe36-2962ae3f21a3"
+                                                class="paragraph PARAGRAPH_SUMM firstparagraph  ">
+                                                <div class="clearfix doc-item">
+                                                    <div class="field singlecolumn" id="FIELD_FRFM">
+                                                        <p>I am a goal-oriented Web Developer who brings a strong
+                                                            commitment to collaboration and solutions-oriented
+                                                            problem-solving. I use various web design packages to
+                                                            develop custom-crafted, customer-focused websites and
+                                                            designs. I am committed to high standards of user
+                                                            experience, usability and speed. I also apply DRY code
+                                                            principles.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="CONTAINER_PARENT_1" class="parentContainer">
+                    <div id="CONTAINER_2" class="left-box">
+                        <div data-react-beautiful-dnd-draggable="5"
+                            class="sortable-item section-container SortableItem-sibling  data-HILT">
+                            <div class="document-tool sec-tool" id="editIcons" style="right: -14px;"></div>
+                            <div id="SECTION_HILT315224f8-9842-43aa-a750-977876fc8076" class="section SECTION_HILT   "
+                                data-section-cd="HILT">
+                                <div class=" doc-item">
+                                    <div class="heading">
+                                        <div class="sectiontitle" id="SECTIONNAME_HILT">Skills<span
+                                                class="rename-section text-rename"> </span></div>
+                                    </div>
+                                    <div class="">
+                                        <div class="">
+                                            <div id="PARAGRAPH_HILT_e6601ff0-59e1-c2be-a619-25577402acee"
+                                                class="paragraph PARAGRAPH_HILT firstparagraph  ">
+                                                <div class="clearfix doc-item">
+                                                    <div class="singlecolumn maincolumn">
+                                                        <span class="paddedline" id="FIELD_SKC1">
+                                                            <ul>
+                                                                <li>Website optimization</li>
+                                                                <li>HTML</li>
+                                                                <li>CSS</li>
+                                                                <li>PHP</li>
+                                                                <li>JavaScript</li>
+                                                            </ul>
+                                                        </span>
+                                                        <span class="paddedline" id="FIELD_SKC2">
+                                                            <ul>
+                                                                <li>MySQL</li>
+                                                                <li>JQuery</li>
+                                                                <li>TailwindCSS</li>
+                                                                <li>Bootstrap</li>
+                                                            </ul>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-react-beautiful-dnd-draggable="5"
+                            class="sortable-item section-container SortableItem-sibling  data-EDUC">
+                            <div class="document-tool sec-tool" id="editIcons" style="right: -14px;"></div>
+                            <div id="SECTION_EDUCf528a69c-0ed9-4ec8-bd48-49e6fc520be9"
+                                class="section education SECTION_EDUC   multi-para" data-section-cd="EDUC">
+                                <div class=" doc-item">
+                                    <div class="heading">
+                                        <div class="sectiontitle" id="SECTIONNAME_EDUC">Education<span
+                                                class="rename-section text-rename"> </span></div>
+                                    </div>
+                                    <div class="">
+                                        <div class="sortableInner">
+                                            <div id="PARAGRAPH_EDUC_066d308d-60cf-5bbe-3c95-29341a2f3b33"
+                                                class="paragraph PARAGRAPH_EDUC firstparagraph  ">
+                                                <div class="clearfix doc-item">
+                                                    <div class="singlecolumn">
+                                                        <span class="paddedline" dependency="SCHO">
+                                                            <span class="companyname txtBold" id="FIELD_SCHO">Obafemi
+                                                                Awolowo University</span>
+                                                        </span>
+                                                        <span class="paddedline" dependency="SCIT|SSTA|GRYR">
+                                                            <span class="joblocation jobcity" id="FIELD_SCIT">Ile-Ife
+                                                                Osun</span>
+                                                            <span class="joblocation jobstate" id="FIELD_SSTA"></span>
+                                                            <span dependency="GRYR+SSTA|SCIT" class="septr"></span>
+                                                            <span class="xslt_static_change">Expected in </span><span
+                                                                id="FIELD_GRYR" format="%m/%Y">09/2022</span>
+                                                        </span>
+                                                        <span class="paddedline degreeGap" dependency="DGRE|STUY|GRPA">
+                                                            <span class="degree txtBold txtItl" id="FIELD_DGRE">Bachelor
+                                                                of Science</span><span dependency="DGRE+STUY">: </span>
+                                                            <span class="programline" id="FIELD_STUY">Computer
+                                                                Science</span>
+                                                            <span class="field" id="FIELD_GRPA"></span>
+                                                        </span>
+                                                        <span class="field" id="FIELD_FRFM"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="PARAGRAPH_EDUC_a9388230-d483-f8c2-65f2-4130154ca89d"
+                                                class="paragraph PARAGRAPH_EDUC  ">
+                                                <div class="clearfix doc-item">
+                                                    <div class="singlecolumn">
+                                                        <span class="paddedline" dependency="SCHO">
+                                                            <span class="companyname txtBold" id="FIELD_SCHO">Aptech
+                                                                Computer Education</span>
+                                                        </span>
+                                                        <span class="paddedline" dependency="SCIT|SSTA|GRYR">
+                                                            <span class="joblocation jobcity"
+                                                                id="FIELD_SCIT">Ikeja,Lagos</span>
+                                                            <span class="joblocation jobstate" id="FIELD_SSTA"></span>
+                                                            <span dependency="GRYR+SSTA|SCIT" class="septr"></span>
+                                                            <span class="xslt_static_change">Expected in </span><span
+                                                                id="FIELD_GRYR" format="%m/%Y">03/2021</span>
+                                                        </span>
+                                                        <span class="paddedline degreeGap" dependency="DGRE|STUY|GRPA">
+                                                            <span class="degree txtBold txtItl" id="FIELD_DGRE">Advanced
+                                                                Diploma in Software Engineering</span><span
+                                                                dependency="DGRE+STUY">: </span>
+                                                            <span class="programline" id="FIELD_STUY">Computer Software
+                                                                And Media Applications</span>
+                                                            <span class="field" id="FIELD_GRPA"></span>
+                                                        </span>
+                                                        <span class="field" id="FIELD_FRFM"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="CONTAINER_3" class="right-box">
+                        <div data-react-beautiful-dnd-draggable="5"
+                            class="sortable-item section-container SortableItem-sibling  data-EXPR">
+                            <div class="document-tool sec-tool" id="editIcons" style="right: -14px;"></div>
+                            <div id="SECTION_EXPR0fadefc2-5e64-4e53-968e-345dfb7e2b69"
+                                class="section SECTION_EXPR   multi-para" data-section-cd="EXPR">
+                                <div class=" doc-item">
+                                    <div class="heading">
+                                        <div class="sectiontitle" id="SECTIONNAME_EXPR">Work History<span
+                                                class="rename-section text-rename"> </span></div>
+                                    </div>
+                                    <div class="">
+                                        <div class="">
+                                            <div id="PARAGRAPH_EXPR_d084bc71-2a25-d12d-3fa8-eddb6b2bf3ba"
+                                                class="paragraph PARAGRAPH_EXPR firstparagraph  ">
+                                                <div class="clearfix doc-item">
+                                                    <div class="singlecolumn">
+                                                        <span class="paddedline"
+                                                            dependency="COMP|JCIT|JSTA|JTIT|JSTD|EDDT">
+                                                            <span class="companyname txtBold" id="FIELD_COMP">New
+                                                                Heights Pharmaceuticals</span>
+                                                            <span dependency="COMP+JTIT">- </span><span
+                                                                class="jobtitle txtBold" id="FIELD_JTIT">Web
+                                                                Developer</span>
+                                                            <br dependency="COMP+JTIT">
+                                                            <span class="joblocation jobcity txtItl"
+                                                                id="FIELD_JCIT">Lagos</span><span
+                                                                dependency="JCIT+JSTA">, </span>
+                                                            <span class="joblocation jobstate txtItl"
+                                                                id="FIELD_JSTA">Lagos</span>
+                                                            <span dependency="JCIT+JSTA" class="septr"></span>
+                                                            <span class="jobdates txtItl" id="FIELD_JSTD"
+                                                                format="%m/%Y">02/2020</span><span
+                                                                dependency="JSTD+EDDT"> - </span><span
+                                                                class="jobdates txtItl" id="FIELD_EDDT"
+                                                                format="%m/%Y">Current</span>
+                                                        </span>
+                                                        <span class="jobline" id="FIELD_JDES">
+                                                            <ul>
+                                                                <li>Design, develop and implement software applications
+                                                                    for website based on analyzed requirements and
+                                                                    understanding of industry technical standards.</li>
+                                                            </ul>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
